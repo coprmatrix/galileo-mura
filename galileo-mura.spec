@@ -10,7 +10,7 @@ Source0:        %{name}-extractor-%{version}.tar.xz
 BuildRequires:  systemd-rpm-macros
 BuildRequires:  gcc
 BuildRequires:  meson >= 0.54.0
-BuildRequires:  ninja
+BuildRequires:  ninja-build
 
 %description
 Utilities for setting and reading mura correction on Galileo
